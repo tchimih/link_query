@@ -12,6 +12,7 @@ You need to have the following libraries:
 Or check the help included:
 
 `python simul.py -h`
+
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
