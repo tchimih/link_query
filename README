@@ -1,0 +1,26 @@
+THIS SOFTWARE WAS CREATED EXCLUSIVLY BY
+
+- HAMMOUTENE ANIS
+
+If you need help on running it, check the help by typing:
+
+python simul.py --help
+
+Examples:
+---------
+
+1) Run a strategy:
+-----------------
+python simul.py -f <input_file/graph> -o <output_file> -t <tbfc, tbf, rand, ...>  -n <#_rand_iteration>
+
+2) Get efficiencies:
+--------------------
+python simul.py -f <file_in> -N <#_nodes> -M <#_links> -t eff-check 
+
+3) Get theorical efficiencies:
+-----------------------------
+python simul.py -N 476 -M 4571 -t eff-spectral
+
+4) Draw a graph with best and worst strat:
+-----------------------------------------
+python engine/draw.py -f <list of files>
